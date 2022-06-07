@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "295254264888",
+    "project_id": "dw7-project-timer",
+    "storage_bucket": "dw7-project-timer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295254264888:android:8a3d440721c4beeeecaacd",
+        "android_client_info": {
+          "package_name": "br.com.felipepanegalli.job_timer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295254264888-s5qc7k4fp5el3gcl07qe9h0me36v8gl5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8Ial1qer0X9dK96mopAvlmhHBOvP30KI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295254264888-s5qc7k4fp5el3gcl07qe9h0me36v8gl5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
