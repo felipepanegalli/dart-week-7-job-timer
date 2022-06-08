@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:job_timer/app/core/ui/job_timer_icons_icons.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({Key? key}) : super(key: key);
@@ -25,7 +26,15 @@ class _SplashPageState extends State<SplashPage> {
               ),
             ),
           ),
-          ElevatedButton(onPressed: () {}, child: const Text('Button Click'))
+          ElevatedButton(onPressed: () {}, child: const Text('Button Click')),
+          const Icon(
+            JobTimerIcons.angle_double_right,
+            size: 36,
+          ),
+          const Icon(
+            JobTimerIcons.ok_circled2,
+            size: 36,
+          )
         ],
       ),
     );
