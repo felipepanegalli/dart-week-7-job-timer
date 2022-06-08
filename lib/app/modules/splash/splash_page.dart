@@ -12,30 +12,16 @@ class _SplashPageState extends State<SplashPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Splash Screen'),
-      ),
-      body: Column(
-        children: [
-          Container(),
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: TextFormField(
-              decoration: const InputDecoration(
-                label: Text('Input xxx'),
-              ),
-            ),
+      body: Container(
+        decoration: const BoxDecoration(
+          gradient: LinearGradient(
+            colors: [
+              Color(0XFF0092B9),
+              Color(0XFF0167B2),
+            ],
           ),
-          ElevatedButton(onPressed: () {}, child: const Text('Button Click')),
-          const Icon(
-            JobTimerIcons.angle_double_right,
-            size: 36,
-          ),
-          const Icon(
-            JobTimerIcons.ok_circled2,
-            size: 36,
-          )
-        ],
+        ),
+        child: Center(child: Image.asset('assets/images/logo.png')),
       ),
     );
   }
